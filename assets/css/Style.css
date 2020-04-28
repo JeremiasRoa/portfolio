@@ -1,0 +1,96 @@
+/*
+Cuerpo donde se va a visualizar la pagina web
+*/
+body{
+    background-color: rgba(46, 210, 216, 0.623);
+}
+/* 
+P representa la configuracion del parrafo.
+*/
+p{
+    color: rgb(255, 255, 255);
+    font-family: 'Courier New';
+    font-size: 20px;
+    font-style: italic;
+    font-weight: bolder;
+}
+/* 
+h1 representa los encabezados, en este caso, el mas importante.
+*/
+h1{
+    color: rgb(255, 255, 255);
+    font-family: 'Courier New';
+    font-size: 50px;
+    text-align: center;
+    font-style: italic;
+}
+/* 
+div es un contenedor, permite crear divisiones, agrupar diferentes etiquetas y aplicar estilos.
+*/
+div{
+    border:2px solid black;
+    background-color: rgb(240, 193, 65);
+    margin: 15px;
+    padding: 10px;
+    border-width: 2px;
+}
+/* 
+h3 representa los encabezados, en este caso el tercero en el rango de importancia.
+*/
+h3{
+    color: rgb(255, 255, 255);
+    font-family: 'Courier New';
+    font-size: 25px;
+    text-align: center;
+    font-style: italic;    
+}
+/*
+ul representa las listas.
+*/
+ul{
+    color: rgb(255, 255, 255);
+    font-family: 'Courier New';
+    font-size: 20px;
+    font-style: italic;
+    font-weight: bolder;
+}
+/* 
+Id's unico
+*/
+#i01{
+    background-color: rgba(193, 31, 226, 0.671);
+}
+#i02{
+    background-color: rgba(193, 31, 226, 0.671);
+}
+#i03{
+    background-color: rgba(193, 31, 226, 0.671);
+}
+/*
+Clase para configurar imagen de perfil (centrar, redondear y borde).
+*/
+.circular--square{
+    border: 5px solid black;
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+/*
+h2 es simplemente un titulo mas
+*/
+h2{
+    color: rgb(255, 255, 255);
+    font-family: 'Courier New';
+    font-size: 25px;
+    text-align: center;
+    font-style: italic;
+}
+/*
+buttom se utiliza para añadir un boton que te redirecciona a las paginas mencionadas
+*/
+button{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
